@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dogs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+      * {
+        font-family: 'Roboto Slab', serif;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: linear-gradient(rgba(250,250,250,.5), rgba(250,250,250,.5)), url("cementbelo.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      nav {
+        background: white;
+        opacity: 0.8;
+      }
+      nav ul li a {
+        color: black;
+      }
+        nav ul li a:hover {
+          color: saddlebrown;
+        }
+      .jumbotron {
+        background: linear-gradient(rgba(241, 237, 237, .1), rgba(248, 235, 235, .1)), url("https://bestworldphotos.files.wordpress.com/2017/10/img_20171003_165540.jpg?w=1000&h=");
+        height: 100vh;
+        background-size: cover;
+       background-position: center center;
+       background-attachment: fixed;
+      }
+
+      .slika_galerija {
+          width: 300px;
+          height: 220px;
+        margin: 10px;
+        border-radius: 4px;
+        border: 1px solid saddlebrown;
+      }
+
+      .naslov {
+        position: relative;
+        text-align: center;
+        top: 20%;
+        color: black;
+      }
+      main {
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      main h1 {
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 3%;
+      }
+      .btn {
+        background-color: saddlebrown;
+        color: white;
+        outline-width: inherit;
+      }
+      .btn:hover {
+        background-color: sienna;
+        color: white;
+      }
+      .collapse a {
+        color: saddlebrown;
+        text-decoration: none;
+      }
+      footer {
+        margin-top: 6%;
+      }
+      footer ul {
+        list-style-type: none;
+      }
+      footer ul li {
+        margin-bottom: 12px;
+      }
+      </style>
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-sm fixed-top">
+    <a class="navbar-brand" href="#"><img src="https://bestworldphotos.files.wordpress.com/2017/10/dura.png?w=228&h=228" alt="slika" style="width:50px;" ></a>
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="str3.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="str1.html">About Dogs</a></li>
+      <li class="nav-item"><a class="nav-link" href="str2.html">More Photos</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="jumbotron">
+
+    <div class="naslov">
+      <h1>Serbian Dogs</h1>
+      <h2><em>Dogs from Serbian Village</em></h2>
+    </div>
+
+  </div>
+
+  <main>
+    <h1><em>Dog's life...</em></h1>
+    <div class="container">
+       <div class="row">
+    <div class="col-sm-8">
+
+      <img src="kerce.jpg" class="slika_galerija" />
+      <img src="bonigleda.jpg" class="slika_galerija" />
+
+      <img src="https://i0.wp.com/serbiandogs.files.wordpress.com/2017/07/cam01076.jpg?w=1000&h=&crop=1&ssl=1" class="slika_galerija" />
+      <img src="bonilist.jpg" class="slika_galerija" />
+
+      <img src="bonisivi.jpg" class="slika_galerija" />
+      <img src="bonisedi.jpg" class="slika_galerija" />
+    </div>
+
+    <div class="col-sm-4">
+
+    <h2>Who are Serbian Dogs?</h2>
+    <br /><br />
+    <p>Serbian dogs are dogs from small Serbian village on the south. <br /><br />There life is full of fun and you
+      can be part of their lifes throw these remarkable photographs.<br /></p>
+      <br><br>
+      <div class="text-center">
+      <p><a href="#demo" class="btn" data-toggle="collapse">Song search</a></p>
+      <div id="demo" class="collapse">
+        It can be used on two ways. One is to type a name of the author and the song to <a href="https://dusanrandjelovic.github.io/songsearch/" target="_blank">find lyrics</a>.
+         Second way is to type <a href="https://dusanrandjelovic.github.io/songsearch/sugestije.html" target="_blank">any word</a> and related songs will be shown with informations.
+      </div>
+      <p><a href="#demos" class="btn" data-toggle="collapse">Star Wars</a></p>
+      <div id="demos" class="collapse">
+        To use this app you need to type a name or a part of the name of any <a href="https://dusanrandjelovic.github.io/starwars/" target="_blank">Star Wars character</a>.
+         Informations about characters will be shown.
+      </div>
+      <p><a href="#demose" class="btn" data-toggle="collapse">Pokemon</a></p>
+      <div id="demose" class="collapse">
+        Simple app that shows informations about pokemons with <a href="https://dusanrandjelovic.github.io/pokemon/" target="_blank">pokemon cards</a>.
+        Only need to type a name of pokemon.
+      </div>
+    </div>
+
+    </div>
+      </div>
+    </div>
+</main>
+
+  <footer class="container fluid text-center">
+    <ul>
+      <li>Contact: dusanrandjelovic92@gmail.com</li>
+      <li>&copy; Dusan Randjelovic</li>
+       <li>
+    <a class="btn btn-default"
+       href="https://www.facebook.com/Srpski-Psi-1824710697787211/" target="blank">Facebook</a>
+    <a class="btn btn-default"
+     href="https://twitter.com/johnnyandboni" target="blank">Twitter</a>
+    </li>
+    </ul>
+    </div>
+</footer>
+  </body>
+</html>
